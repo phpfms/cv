@@ -1,0 +1,120 @@
+{
+    "page": {
+        "title": "CV - Christian LATOUCHE"
+    },
+    "nav": {
+        "about": "À propos",
+        "contact": "Contact",
+        "skills": "Compétences",
+        "langues": "Langues",
+        "permis": "Permis & Mobilité",
+        "formations": "Formations",
+        "experiences": "Expériences",
+        "projects": "Projets",
+        "interests": "Centres d'intérêt"
+    },
+    "header": {
+        "subtitle": "Développeur Freelance & Professionnel du Clavier",
+        "intro": "Je transforme des <strong>idées géniales</strong> en code notstrong>presque fonctionnel."
+    },
+    "sections": {
+        "about": {
+            "title": "👋 À propos de moi",
+            "p1": "Passionné par le développement depuis que j'ai découvert HTML et CSS. Curieux, motivé, je cherche constamment du travail.",
+            "p2": "Mon objectif : devenir développeur riche et trouver un jour pourquoi."
+        },
+        "information": {
+            "title": "📢 Information complémentaire",
+            "p1": "Disponible pour un stage PMSMP."
+        },
+        "contact": {
+            "title": "📞 Contact",
+            "location": "📍 Plaisance, France",
+            "github": "Mon GitHub"
+        },
+        "skills": {
+            "title": "💻 Compétences",
+            "keyboard": "Optimisation de contacts clavier",
+            "bugs": "Fabriquer des bugs innovants"
+        },
+        "langues": {
+            "title": "🌍 Langues étrangères",
+            "francais": "Français (langue maternelle)",
+            "coreen": "Coréen — niveau A1 (au top malgrès un net accent chti)",
+            "espagnol": "Espagnol — niveau A2 (notions)"
+        },
+        "permis": {
+            "title": "🚗 Permis & Mobilité",
+            "am": "🛵 Permis AM (BSR)",
+            "mobility": "📍 Mobilité : Plaisance et alentours (rayon 30 km)",
+            "trips": "✈️ Disponible pour déplacements ponctuels"
+        },
+        "formations": {
+            "title": "🎓 Formations",
+            "item1": {
+                "title": "Formation Développement Web",
+                "text": "Apprentissage intensif du HTML, CSS, du JavaScript et de Python."
+            },
+            "item2": {
+                "title": "Gestion de données",
+                "text": "Suivit des préconisations CNIL-RGPT"
+            },
+            "item3": {
+                "title": "Certification officielle \"Le Site du Zéro\"",
+                "text": "Mention très bien, et Lauréat du concours d'assiduité."
+            }
+        },
+        "experiences": {
+            "title": "💼 Expériences professionnelles",
+            "item1": {
+                "title": "Développeur Web Junior",
+                "date": "2026 - Aujourd'hui",
+                "text": "Création de sites web ancien, recherche de fautes de frappe."
+            },
+            "item2": {
+                "title": "Expert en dépannage informatique",
+                "date": "2023 - 2026",
+                "text": "Mission principale : amélioration du style CSS et nettoyage de clavier."
+            },
+            "item3": {
+                "title": "Testeur professionnel de site",
+                "date": "2022 - 2023",
+                "text": "Analyse approfondie de la qualité du HTML."
+            }
+        },
+        "projects": {
+            "title": "🪄 Projets réalisés",
+            "viewGithub": "Voir sur GitHub →",
+            "item1": {
+                "text": "Un programme permettant d'agrémenter une pizza pour optimiser le résultat trois heures plus tard."
+            },
+            "item2": {
+                "text": "Application permettant de surveiller la vivacité du développeur."
+            },
+            "item3": {
+                "text": "Gestionnaire intelligent permettant de déterminer si le café est encore trop chaud par l'étude de l'évolution de sa couleur."
+            }
+        },
+        "interests": {
+            "title": "🎮 Centres d'intérêt",
+            "telepheriques": "🚠 Téléphériques",
+            "informatique": "💻 Informatique",
+            "cafe": "☕ Café",
+            "clavier": "⌨️ Clavier",
+            "pizza": "🍕 Pizza",
+            "internet": "🌐 Internet",
+            "siestes": "😴 Siestes"
+        }
+    },
+    "download": {
+        "title": "📄 Télécharger (à vos risques et périls) mon CV en pdf",
+        "button": "⬇️ Télécharger le CV (PDF)"
+    },
+    "footer": {
+        "text": "© 2026 Christian LATOUCHE — Aucun clavier n'a été maltraité pour la création de ce CV."
+    },
+	"buttons": {
+		"darkMode": "🌙 Mode sombre",
+		"lightMode": "☀️ Mode clair"
+	}
+}

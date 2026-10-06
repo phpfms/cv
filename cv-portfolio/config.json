@@ -1,0 +1,12 @@
+{
+    "defaultLanguage": "fr",
+    "localesFolder": "locales",
+    "clickRadius": 70,
+    "readingDelay": 1300,
+    "contact": {
+        "email": "christian@latouche.fr",
+        "phone": "44 44 44 44 19",
+        "location": "Plaisance, France",
+        "github": "https://github.com/"
+    }
+}

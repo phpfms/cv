@@ -1,0 +1,120 @@
+{
+    "page": {
+        "title": "이력서 - Christian LATOUCHE"
+    },
+    "nav": {
+        "about": "소개",
+        "contact": "연락처",
+        "skills": "기술",
+        "langues": "언어",
+        "permis": "면허 및 이동성",
+        "formations": "학력",
+        "experiences": "경력",
+        "projects": "프로젝트",
+        "interests": "관심사"
+    },
+    "header": {
+        "subtitle": "프리랜서 개발자 & 키보드 전문가",
+        "intro": "훌륭한 아이디어를 거의 작동하는 코드로 바꿉니다."
+    },
+    "sections": {
+        "about": {
+            "title": "👋 자기소개",
+            "p1": "HTML과 CSS를 발견한 이후 개발에 열정을 가지고 있습니다. 호기심 많고 의욕적이며, 항상 일을 찾고 있습니다.",
+            "p2": "목표: 성공적인 개발자가 되어 언젠가 그 이유를 발견하는 것."
+        },
+        "information": {
+            "title": "📢 추가 정보",
+            "p1": "PMSMP 인턴십 가능."
+        },
+        "contact": {
+            "title": "📞 연락처",
+            "location": "📍 프랑스 플레장스",
+            "github": "제 GitHub"
+        },
+        "skills": {
+            "title": "💻 기술",
+            "keyboard": "키보드 접점 최적화",
+            "bugs": "혁신적인 버그 제조"
+        },
+        "langues": {
+            "title": "🌍 외국어",
+            "francais": "프랑스어 (모국어)",
+            "coreen": "한국어 — A1 (약간의 시골 억양이 있지만 최고)",
+            "espagnol": "스페인어 — A2 (기초)"
+        },
+        "permis": {
+            "title": "🚗 면허 및 이동성",
+            "am": "🛵 AM 면허 (BSR)",
+            "mobility": "📍 이동성: 플레장스 및 주변 (반경 30km)",
+            "trips": "✈️ 단기 출장 가능"
+        },
+        "formations": {
+            "title": "🎓 학력",
+            "item1": {
+                "title": "웹 개발 교육",
+                "text": "HTML, CSS, JavaScript, Python 집중 학습."
+            },
+            "item2": {
+                "title": "데이터 관리",
+                "text": "CNIL-RGPT 권고 사항 준수"
+            },
+            "item3": {
+                "title": "공식 인증 \"Le Site du Zéro\"",
+                "text": "우수 졸업, 출석 대회 수상."
+            }
+        },
+        "experiences": {
+            "title": "💼 경력",
+            "item1": {
+                "title": "주니어 웹 개발자",
+                "date": "2026 - 현재",
+                "text": "구형 웹사이트 제작, 오타 검색."
+            },
+            "item2": {
+                "title": "컴퓨터 수리 전문가",
+                "date": "2023 - 2026",
+                "text": "주요 업무: CSS 스타일 개선 및 키보드 청소."
+            },
+            "item3": {
+                "title": "전문 사이트 테스터",
+                "date": "2022 - 2023",
+                "text": "HTML 품질 심층 분석."
+            }
+        },
+        "projects": {
+            "title": "🪄 완료한 프로젝트",
+            "viewGithub": "GitHub에서 보기 →",
+            "item1": {
+                "text": "3시간 후 결과를 최적화하기 위해 피자를 장식하는 프로그램."
+            },
+            "item2": {
+                "text": "개발자의 활력을 모니터링하는 애플리케이션."
+            },
+            "item3": {
+                "text": "색상 변화를 연구하여 커피가 아직 너무 뜨거운지 판단하는 지능형 관리자."
+            }
+        },
+        "interests": {
+            "title": "🎮 관심사",
+            "telepheriques": "🚠 케이블카",
+            "informatique": "💻 컴퓨터",
+            "cafe": "☕ 커피",
+            "clavier": "⌨️ 키보드",
+            "pizza": "🍕 피자",
+            "internet": "🌐 인터넷",
+            "siestes": "😴 낮잠"
+        }
+    },
+    "download": {
+        "title": "📄 (위험을 감수하고) 제 CV를 PDF로 다운로드",
+        "button": "⬇️ CV 다운로드 (PDF)"
+    },
+    "footer": {
+        "text": "© 2026 Christian LATOUCHE — 이 CV를 만드는 동안 어떤 키보드도 학대당하지 않았습니다."
+    },
+	"buttons": {
+		"darkMode": "🌙 다크 모드",
+		"lightMode": "☀️ 라이트 모드"
+	}
+}

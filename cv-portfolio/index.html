@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title">CV - Christian LATOUCHE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+    <nav>
+        <a href="#about"       data-i18n="nav.about"></a>
+        <a href="#contact"     data-i18n="nav.contact"></a>
+        <a href="#skills"      data-i18n="nav.skills"></a>
+        <a href="#langues"     data-i18n="nav.langues"></a>
+        <a href="#permis"      data-i18n="nav.permis"></a>
+        <a href="#formations"  data-i18n="nav.formations"></a>
+        <a href="#experiences" data-i18n="nav.experiences"></a>
+        <a href="#projects"    data-i18n="nav.projects"></a>
+        <a href="#interests"   data-i18n="nav.interests"></a>
+    </nav>
+
+    <div class="header-buttons">
+        <button id="theme-toggle" data-i18n="buttons.darkMode">🌙 Mode sombre</button>
+        <button id="lang-toggle">🌐 한국어</button>
+    </div>
+
+    <div class="profil">
+        <div class="avatar">
+            <img src="photo.png" alt="Photo de Christian LATOUCHE">
+        </div>
+        <div>
+            <h1>Christian LATOUCHE</h1>
+            <h2 data-i18n="header.subtitle"></h2>
+            <p data-i18n-html="header.intro"></p>
+        </div>
+    </div>
+
+</header>
+
+<main>
+
+    <!-- =========================
+         À PROPOS
+    ========================== -->
+
+    <section class="card cv-section" id="about">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.about.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <p data-i18n="sections.about.p1"></p>
+            <p data-i18n="sections.about.p2"></p>
+        </div>
+    </section>
+
+    <!-- =========================
+         INFORMATION COMPLÉMENTAIRE
+    ========================== -->
+
+    <section class="card cv-section" id="information">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.information.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <p data-i18n="sections.information.p1"></p>
+        </div>
+    </section>
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="card cv-section" id="contact">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.contact.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <ul class="contact">
+                <li>📧 christian@latouche.fr</li>
+                <li>🐔 44 44 44 44 19</li>
+                <li>
+                    <span data-i18n="sections.contact.location"></span>
+                </li>
+                <li>
+                    💻
+                    <a href="https://github.com/" target="_blank" rel="noopener"
+                       data-i18n="sections.contact.github"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- =========================
+         COMPÉTENCES
+    ========================== -->
+
+    <section class="card cv-section" id="skills">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.skills.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="skills">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="bar"><div class="progress html">10%</div></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="bar"><div class="progress css">9.5%</div></div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="bar"><div class="progress js">35%</div></div>
+                </div>
+                <div class="skill">
+                    <span data-i18n="sections.skills.keyboard"></span>
+                    <div class="bar"><div class="progress clavier">100%</div></div>
+                </div>
+                <div class="skill">
+                    <span data-i18n="sections.skills.bugs"></span>
+                    <div class="bar"><div class="progress bugs">85%</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         LANGUES
+    ========================== -->
+
+    <section class="card cv-section" id="langues">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.langues.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="skills">
+                <div class="skill">
+                    <span data-i18n="sections.langues.francais"></span>
+                    <div class="bar"><div class="progress francais">100%</div></div>
+                </div>
+                <div class="skill">
+                    <span data-i18n="sections.langues.coreen"></span>
+                    <div class="bar"><div class="progress coreen">99%</div></div>
+                </div>
+                <div class="skill">
+                    <span data-i18n="sections.langues.espagnol"></span>
+                    <div class="bar"><div class="progress espagnol">30%</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         PERMIS & MOBILITÉ
+    ========================== -->
+
+    <section class="card cv-section" id="permis">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.permis.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <ul class="contact">
+                <!--<li>🚗 Permis B — véhicule personnel</li>-->
+                <li data-i18n="sections.permis.am"></li>
+                <li data-i18n="sections.permis.mobility"></li>
+                <li data-i18n="sections.permis.trips"></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- =========================
+         FORMATIONS
+    ========================== -->
+
+    <section class="card cv-section" id="formations">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.formations.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="timeline">
+                <div class="item">
+                    <h3>2025 - 2026</h3>
+                    <h4 data-i18n="sections.formations.item1.title"></h4>
+                    <p data-i18n="sections.formations.item1.text"></p>
+                </div>
+                <div class="item">
+                    <h3>2024-2025</h3>
+                    <h4 data-i18n="sections.formations.item2.title"></h4>
+                    <p data-i18n="sections.formations.item2.text"></p>
+                </div>
+                <div class="item">
+                    <h3>2024</h3>
+                    <h4 data-i18n="sections.formations.item3.title"></h4>
+                    <p data-i18n="sections.formations.item3.text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         EXPÉRIENCES
+    ========================== -->
+
+    <section class="card cv-section" id="experiences">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.experiences.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="experience">
+                <article>
+                    <h3 data-i18n="sections.experiences.item1.title"></h3>
+                    <span class="date" data-i18n="sections.experiences.item1.date"></span>
+                    <p data-i18n="sections.experiences.item1.text"></p>
+                </article>
+                <article>
+                    <h3 data-i18n="sections.experiences.item2.title"></h3>
+                    <span class="date" data-i18n="sections.experiences.item2.date"></span>
+                    <p data-i18n="sections.experiences.item2.text"></p>
+                </article>
+                <article>
+                    <h3 data-i18n="sections.experiences.item3.title"></h3>
+                    <span class="date" data-i18n="sections.experiences.item3.date"></span>
+                    <p data-i18n="sections.experiences.item3.text"></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         PROJETS
+    ========================== -->
+
+    <section class="card cv-section" id="projects">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.projects.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="projects">
+                <article class="project">
+                    <h3>🍕 Pizza-opti</h3>
+                    <p data-i18n="sections.projects.item1.text"></p>
+                    <a href="https://github.com/" target="_blank" rel="noopener"
+                       data-i18n="sections.projects.viewGithub"></a>
+                </article>
+                <article class="project">
+                    <h3>😴 Sleep Tracker</h3>
+                    <p data-i18n="sections.projects.item2.text"></p>
+                    <a href="https://github.com/" target="_blank" rel="noopener"
+                       data-i18n="sections.projects.viewGithub"></a>
+                </article>
+                <article class="project">
+                    <h3>☕ Coffee Manager</h3>
+                    <p data-i18n="sections.projects.item3.text"></p>
+                    <a href="https://github.com/" target="_blank" rel="noopener"
+                       data-i18n="sections.projects.viewGithub"></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         CENTRES D'INTÉRÊT
+    ========================== -->
+
+    <section class="card cv-section" id="interests">
+        <button class="section-title" type="button">
+            <span data-i18n="sections.interests.title"></span>
+            <span class="arrow">＋</span>
+        </button>
+        <div class="section-content">
+            <div class="interests">
+                <span data-i18n="sections.interests.telepheriques"></span>
+                <span data-i18n="sections.interests.informatique"></span>
+                <span data-i18n="sections.interests.cafe"></span>
+                <span data-i18n="sections.interests.clavier"></span>
+                <span data-i18n="sections.interests.pizza"></span>
+                <span data-i18n="sections.interests.internet"></span>
+                <span data-i18n="sections.interests.siestes"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         TÉLÉCHARGEMENT DU CV
+    ========================== -->
+
+    <aside class="card download-card">
+        <h2 data-i18n="download.title"></h2>
+        <button class="download-button" id="download-cv" type="button"
+                data-i18n="download.button"></button>
+    </aside>
+
+</main>
+
+<!-- =========================
+     MOUSTIQUE
+========================== -->
+
+<div id="fly" aria-label="Moustique à écraser">🦟</div>
+
+<!-- =========================
+     CHAMPIGNON
+========================== -->
+
+<div id="impact" aria-hidden="true"></div>
+
+<footer>
+    <p data-i18n="footer.text"></p>
+</footer>
+
+<!-- =========================
+     OVERLAY WARNING
+     (volontairement non traduit)
+========================== -->
+
+<div id="warning-overlay" aria-hidden="true">
+    <div class="warning-content">
+        <div class="warning-icon">☣️</div>
+        <h2>⚠️ ALERTE SÉCURITÉ ⚠️</h2>
+        <p class="warning-text">
+            On vous avait pourtant bien dit<br>
+            de <strong>ne pas ouvrir les liens suspects</strong> !
+        </p>
+        <p class="warning-text warning-infected">
+            💀 VOUS ÊTES INFECTÉS 💀
+        </p>
+        <p class="warning-hint">
+            Appuyez sur <kbd>Échap</kbd> pour quitter
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
